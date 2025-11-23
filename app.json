@@ -1,23 +1,22 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "emogo",
     "plugins": [
       "expo-router"
     ],
-    "name": "expo-router-mwe",
-    "slug": "expo-router-mwe",
+    "name": "Emogo",
+    "slug": "emogo-frontend",
     "android": {
-      "package": "com.spiketren.exporoutermwe"
+      "package": "com.nickhung1222.emogo"
     },
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "7918e76f-59e9-45c4-aae4-c99cec64cfac"
+        "projectId": "ca57f13d-6d21-4497-94f2-a860099e2df2"
       }
     },
-    "owner": "spiketren",
     "ios": {
-      "bundleIdentifier": "com.spiketren.exporoutermwe",
+      "bundleIdentifier": "com.nickhung1222.emogo",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }

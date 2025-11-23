@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "scheme": "emogo",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "Emogo",
+    "slug": "emogo-frontend",
+    "android": {
+      "package": "com.nickhung1222.emogo"
+    },
+    "extra": {
+      "router": {}
+    },
+    "ios": {
+      "bundleIdentifier": "com.nickhung1222.emogo",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}

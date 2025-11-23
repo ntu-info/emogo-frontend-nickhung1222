@@ -1,0 +1,57 @@
+﻿[App Example]
+
+
+Some students have encountered some version incompatibility issues because Tren used an older version of Expo (52.0.23) & Expo Router (4.0.15) in my export-router-mwe example.
+
+
+Tren has updated the export-router-mwe example on COOL and GitHub Classroom using the latest Expo (54.0.1) & Expo Router (6.0.0). If you’re still having trouble running this example, please upgrade your Expo Go or simulators to the latest versions.
+
+
+[Deployment for your own devices]
+
+
+Simply follow this tutorial for a development build:
+
+
+https://docs.expo.dev/tutorial/eas/configure-development-build/
+
+
+Once you finished “eas build:configure” in the above page, run:
+
+
+“eas build --platform ios --profile preview” for your iPhone
+“eas build --platform android --profile preview” for your Android phone
+
+
+Then you should able to see the building process (~15mins) on Expo’s website like this:
+
+
+  
+
+
+
+Click the [Install] button for more information.
+
+
+You can also make a real dev build by:
+
+
+“eas build --platform ios” for your iPhone
+“eas build --platform android” for your Android phone
+
+
+However, you have to deal with Google Play Store & Apple App Store deployment if you choose to go this way.
+
+
+[Deployment for homework assignment]
+
+
+Similar to [Deployment for your own devices], the only difference is to use “eas build --platform android --profile preview” in the last step no matter if you're an iPhone or Android user. 
+
+
+This preview build will generate an .APK file that can be easily shared and installed (for Tren & TAs). Specifically, once you clicked the [Install] button in your project page on the Expo website, you’ll see a sharable link, such as 
+
+https://expo.dev/accounts/spiketren/projects/expo-router-mwe/builds/f2b634a3-38b5-4927-b728-b11e9d14122f
+
+
+in the following figure. Please put this https://expo.dev/…. link in the README.md of your GitHub repo.
